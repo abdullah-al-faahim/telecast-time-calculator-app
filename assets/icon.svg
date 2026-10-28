@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="108" height="108" viewBox="0 0 108 108" role="img" aria-label="Telecast Time icon"><defs><clipPath id="c"><circle cx="54" cy="54" r="54"/></clipPath></defs><g clip-path="url(#c)">
+<path fill="#0E1117" d="M0,0h108v108h-108z"/>
+<path fill="#151A22" d="M0,30h108v4h-108z M0,46h108v4h-108z M0,62h108v4h-108z M0,78h108v4h-108z"/>
+<path fill="#F5A524" d="M49,27h10a2,2 0 0 1 2,2v3h-14v-3a2,2 0 0 1 2,-2z"/>
+<path fill="#F5A524" fill-rule="evenodd" d="M54,33 A22,22 0 1,1 53.99,33 Z M54,38 A17,17 0 1,0 54.01,38 Z"/>
+<path fill="#F5A524" d="M52.5,42h3v14h-3z"/>
+<path fill="#F5A524" d="M53,53.5 L64,60 L62.5,62.6 L51.5,56.1 Z"/>
+<path fill="#F04438" d="M74,30 A5,5 0 1,1 73.99,30 Z"/>
+</g></svg>
