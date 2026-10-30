@@ -39,8 +39,8 @@ It's made for master control rooms, edit suites, newsrooms, and anyone else who 
     <td align="center"><img src="screenshots/06-history.png" width="230" alt="History"><br><sub><b>History saved on your phone</b></sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="screenshots/07-duration-light.png" width="230" alt="Light theme"><br><sub><b>Light theme</b></sub></td>
-    <td align="center"><img src="screenshots/08-timecode-light.png" width="230" alt="Across the drop"><br><sub><b>2 frames across the drop</b></sub></td>
+    <td align="center"><img src="screenshots/07-keypad-folded.png" width="230" alt="Keypad folded away"><br><sub><b>Keypad folded into a button</b></sub></td>
+    <td align="center"><img src="screenshots/08-edit-frames.png" width="230" alt="Editing just the frames"><br><sub><b>Step just the frames, across the drop</b></sub></td>
     <td align="center"><img src="screenshots/09-settings-light.png" width="230" alt="Settings and updates"><br><sub><b>Settings and in-app updates</b></sub></td>
   </tr>
 </table>
@@ -56,7 +56,9 @@ It's made for master control rooms, edit suites, newsrooms, and anyone else who 
 | 🎞️ **Timecode** | `HH:MM:SS:FF` maths: Out − In duration, A + B, A − B. Shows the result in frames and in real time, and tells you if a timecode can't exist at the chosen rate. |
 | 🎬 **Every broadcast rate** | 23.976 · 24 · 25 · 29.97 DF · 29.97 NDF · 30 · 50 · 59.94 DF · 59.94 NDF · 60. Drop-frame timecode is written with `;` and skips the right frame numbers. |
 | 📋 **Rundown** | Add segments such as headlines, packages, breaks and promos. See each one's on-air and off-air time, the total, and **OVER** or **UNDER** against the slot. Reorder, duplicate, and share the rundown as text. |
-| 🔁 **Convert** | Type `90`, `1.5` or `1:30:00` and see it in milliseconds, frames, seconds, minutes, hours, days and weeks, plus as timecode. Tap any row to copy it. |
+| 🎯 **Edit one part** | Tap the hours, minutes, seconds or frames of any time to edit only that part. Type into it, or step it with **−** and **+** (hold to keep going). Steps carry over, and drop-frame steps skip the missing frame numbers. |
+| ⌨️ **Fold the keypad away** | Tap *Hide keypad* or swipe it down and it shrinks to a floating button, leaving more room for the tape and results. Tap the button, or any field, to bring it back. |
+| 🔁 **Convert** | Type `90`, `1.5` or `1:30:00`, or fill in separate hours, minutes, seconds and frames, and see it in milliseconds, frames, seconds, minutes, hours, days and weeks, plus as timecode. Tap any row to copy it. |
 | 🕘 **History** | Duration sums are saved automatically, and other results are saved with one tap. Tap to copy, or reopen a sum on the tape and keep going. |
 | 🌗 **Light and dark** | Follows your phone, or pick light or dark. Readouts use fixed-width digits so they don't jump while you type. |
 | ⚙️ **Your way** | Choose a 12- or 24-hour clock, a default frame rate (25 fps out of the box), and whether the keys vibrate. |
@@ -74,6 +76,7 @@ The keypads work the way broadcast equipment does, so you don't type colons.
 | Timecode | `100` | `00:00:01:00` | Pushes in from the right, like an edit suite's TC field |
 | Clock | `1930` | `19:30:00` | Times of day fill from the left, the way you say them |
 | Convert | `1:30` | 1 min 30 s | Colons work here too: `h:mm:ss` or `m:ss` |
+| Any time | tap `MM`, type `45` | `00:45:00` | Picks just that part; the selection then moves on to seconds |
 
 ## Install
 
@@ -127,6 +130,8 @@ Only on your phone. History, the rundown and your settings are kept in the app's
 </details>
 
 ## What's new
+
+**3.1.0** lets you fold the keypad into a floating button and edit just the hours, minutes, seconds or frames of any time, with − / + steppers. Convert gains separate h · m · s · frames boxes.
 
 **3.0.0** rebuilt Telecast Time from scratch as a native app with the duration tape, timecode, live countdown, rundown, converter, history and in-app updates. See every version on the [releases page](https://github.com/abdullah-al-faahim/telecast-time-calculator-app/releases).
 
