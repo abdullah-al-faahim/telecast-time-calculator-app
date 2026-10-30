@@ -8,7 +8,7 @@
   <img src="assets/download.svg" alt="Download the Android app" height="76">
 </a>
 
-<sub>Free · no ads · no account · Android 8.0 or newer · about 1.4 MB</sub>
+<sub>Free · no ads · no account · only internet permission · Android 8.0 or newer · about 1.4 MB</sub>
 
 <br><br>
 
@@ -62,7 +62,7 @@ It's made for master control rooms, edit suites, newsrooms, and anyone else who 
 | 🕘 **History** | Duration sums are saved automatically, and other results are saved with one tap. Tap to copy, or reopen a sum on the tape and keep going. |
 | 🌗 **Light and dark** | Follows your phone, or pick light or dark. Readouts use fixed-width digits so they don't jump while you type. |
 | ⚙️ **Your way** | Choose a 12- or 24-hour clock, a default frame rate (25 fps out of the box), and whether the keys vibrate. |
-| 🔄 **Updates itself** | When a new version is out, the app tells you and installs it in one tap. A red dot on the settings icon means an update is waiting. |
+| 🔄 **Update alerts** | When a new version is out, the app tells you, and a red dot on the settings icon means one is waiting. Tap **Download** and your browser fetches it. The app itself never installs anything. |
 | 🔒 **Private** | No account, no ads, no tracking. History and rundowns never leave your phone. The internet is used only to check this page for updates, and you can turn that off. |
 
 ## Typing times
@@ -85,7 +85,7 @@ The keypads work the way broadcast equipment does, so you don't type colons.
 3. If Android asks about installing from an unknown source, tap **Settings**, turn on **Allow from this source**, go back and tap **Install**.
 4. Open **Telecast Time**.
 
-> **Updates:** once it's installed, the app tells you when a new version comes out and updates from inside the app. You don't need to come back here or uninstall anything.
+> **Updates:** the app tells you when a new version comes out. Tap **Download**, then open the file to install it over your current version. Your history and settings stay, and you don't need to uninstall anything.
 >
 > **Had the old *Time Calculator* (v2)?** Telecast Time is a new app, so it installs alongside the old one. You can uninstall the old version.
 
@@ -130,6 +130,8 @@ Only on your phone. History, the rundown and your settings are kept in the app's
 </details>
 
 ## What's new
+
+**3.2.0** makes updates download through your browser. The app no longer asks for permission to install apps, which stops Google Play Protect flagging it during installation.
 
 **3.1.0** lets you fold the keypad into a floating button and edit just the hours, minutes, seconds or frames of any time, with − / + steppers. Convert gains separate h · m · s · frames boxes.
 
