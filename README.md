@@ -31,12 +31,12 @@ It's made for master control rooms, edit suites, newsrooms, and anyone else who 
   <tr>
     <td align="center"><img src="screenshots/01-duration.png" width="230" alt="Duration tape"><br><sub><b>Duration tape with running totals</b></sub></td>
     <td align="center"><img src="screenshots/02-timecode.png" width="230" alt="Drop-frame timecode"><br><sub><b>Frame-accurate drop-frame timecode</b></sub></td>
-    <td align="center"><img src="screenshots/03-clock.png" width="230" alt="Live countdown"><br><sub><b>Live countdown to air</b></sub></td>
+    <td align="center"><img src="screenshots/03-clock.png" width="230" alt="Clock with the answer pinned above the keypad"><br><sub><b>Answer pinned above the keypad</b></sub></td>
   </tr>
   <tr>
     <td align="center"><img src="screenshots/04-rundown.png" width="230" alt="Rundown"><br><sub><b>Rundown with over/under</b></sub></td>
     <td align="center"><img src="screenshots/05-convert.png" width="230" alt="Convert"><br><sub><b>One value in every unit</b></sub></td>
-    <td align="center"><img src="screenshots/06-history.png" width="230" alt="History"><br><sub><b>History saved on your phone</b></sub></td>
+    <td align="center"><img src="screenshots/06-tour.png" width="230" alt="Guided tour"><br><sub><b>A guided tour for new users</b></sub></td>
   </tr>
   <tr>
     <td align="center"><img src="screenshots/07-keypad-folded.png" width="230" alt="Keypad folded away"><br><sub><b>Keypad folded into a button</b></sub></td>
@@ -50,6 +50,7 @@ It's made for master control rooms, edit suites, newsrooms, and anyone else who 
 
 | | |
 |---|---|
+| 🧭 **Guided tour** | A short walkthrough spotlights every tool and button the first time you open the app. Replay it any time with the **?** button. |
 | 🧮 **Duration tape** | Works like an adding machine for time. Add and subtract durations, multiply or divide by a number, and every line shows its running total. Tap ⌫ on an empty entry to pull the last line back and fix it. |
 | ⏱️ **Clock** | How long between two times of day, even across midnight. Or a time plus or minus a duration, with "next day" or "previous day" when it crosses one. Fill a field with **Now** in one tap. |
 | 🔴 **Live countdown** | Switch on *Start from the live clock* and the Clock screen counts down to your end time every second: "on air in 0:19:50". |
@@ -59,6 +60,7 @@ It's made for master control rooms, edit suites, newsrooms, and anyone else who 
 | 🎯 **Edit one part** | Tap the hours, minutes, seconds or frames of any time to edit only that part. Type into it, or step it with **−** and **+** (hold to keep going). Steps carry over, and drop-frame steps skip the missing frame numbers. |
 | ⌨️ **Fold the keypad away** | Tap *Hide keypad* or swipe it down and it shrinks to a floating button, leaving more room for the tape and results. Tap the button, or any field, to bring it back. |
 | 🔁 **Convert** | Type `90`, `1.5` or `1:30:00`, or fill in separate hours, minutes, seconds and frames, and see it in milliseconds, frames, seconds, minutes, hours, days and weeks, plus as timecode. Tap any row to copy it. |
+| 📌 **Answer in view** | On Clock and Timecode the result is pinned above the keypad, with **Copy** and **Save** buttons, so it never scrolls away while you type. |
 | 🕘 **History** | Duration sums are saved automatically, and other results are saved with one tap. Tap to copy, or reopen a sum on the tape and keep going. |
 | 🌗 **Light and dark** | Follows your phone, or pick light or dark. Readouts use fixed-width digits so they don't jump while you type. |
 | ⚙️ **Your way** | Choose a 12- or 24-hour clock, a default frame rate (25 fps out of the box), and whether the keys vibrate. |
@@ -130,6 +132,8 @@ Only on your phone. History, the rundown and your settings are kept in the app's
 </details>
 
 ## What's new
+
+**3.3.0** adds a guided tour of the whole app, pins the answer above the keypad with Copy and Save buttons, and makes the Duration tape say what to type next.
 
 **3.2.0** makes updates download through your browser. The app no longer asks for permission to install apps, which stops Google Play Protect flagging it during installation.
 
